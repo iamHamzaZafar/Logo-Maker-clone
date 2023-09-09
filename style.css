@@ -77,6 +77,27 @@ h6 {
     color: rgba(0, 0, 0, 0.544);
 }
 
+.ri-menu-3-line {
+    display: none;
+    font-size: 1.5rem;
+}
+
+.ri-menu-3-line:hover {
+    cursor: pointer;
+
+}
+
+@media (max-width:600px) {
+
+    .links li {
+        display: none;
+    }
+
+    .ri-menu-3-line {
+        display: block;
+    }
+}
+
 
 
 .section2 {
@@ -624,8 +645,9 @@ footer h3 {
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active,
 .accordion:hover {
-    /* background-color: #ccc; */
+    background-color: #cccccc6b;
 }
+
 
 /* Style the accordion panel. Note: hidden by default */
 .panel {
